@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Beranda</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav ms-auto">
+                    <div class="navbar-nav">
+                        <div class="dropdown">
+                            <div class="btn dropdown-toggle" id="menu1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin 1
+                                <img src="https://images.unsplash.com/photo-1490814525860-594e82bfd34a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1495&q=80" class="img-thumbnail border-0 rounded-circle" alt="..." width="40">
+                            </div>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="menu1">
+                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid d-flex px-0">
+        <!-- Navigasi Samping -->
+        <div class="nav-side bg-light pt-3 border-end">
+            <nav class="nav flex-column">
+                <a class="nav-link" href="#">Beranda</a>
+                <a class="nav-link" href="#">Tabel</a>
+                <a class="nav-link" href="#">Form</a>
+            </nav>
+        </div>
+
+        <!-- Utama -->
+        <div class="container-fluid">
+            <!-- Header -->
+            <div class="row">
+                <div class="col px-4 py-3 d-flex justify-content-between align-items-center bg-light">
+                    <!-- Judul -->
+                    <div class="title">
+                        <h4>Beranda</h4>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Button -->
+                    <div class="grup-button">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+            <!-- Info -->
+            <div class="row row-cols-3 px-3 py-5">
+                <!-- Info Item -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Pengunjung</h6>
+                            <h3 class="card-title">300 Orang</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Item -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Pengunjung</h6>
+                            <h3 class="card-title">300 Orang</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- Info Item -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Pengunjung</h6>
+                            <h3 class="card-title">300 Orang</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Info End -->
+
+        </div>
+        <!-- Content End -->
+    </div>
+    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
