@@ -1,6 +1,11 @@
+.navbar {
+    z-index: 2;
+}
+
 .nav-side {
-    height: 100vh;
+    height: 90vh;
     width: 200px;
+    z-index: 1;
 }
 
 body {
